@@ -56,3 +56,7 @@ curl -X GET -H "Authorization: Bearer INSERT_TOKEN_HERE" http://localhost:9000/s
 You'll notice in the `package.json` I'm using a [forked version](https://github.com/clintmod/jwt/tree/v3.2.3-beta) of `koa-jwt`. This is because currently, there's no "documented" way to know when a token expires. I've [opened an issue](https://github.com/koajs/jwt/issues/107) and [sent a pull request](https://github.com/koajs/jwt/pull/108) with what I think is an appropriate fix. When the pull request gets merged and released I'll update the demo with the new version of koa-jwt.
 
 I also hash the password using bcrypt because you should _always_ hash your passwords.
+
+## Notice
+
+This is a fork from: https://github.com/clintmod/koa-jwt-login-example that I am adapting to my own use case. All initial code is his. Thanks!
