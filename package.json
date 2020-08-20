@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "src/server.js",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "fsevents": "^2.1.1",
     "jsonwebtoken": "latest",
     "koa": "latest",
